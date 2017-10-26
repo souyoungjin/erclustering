@@ -3,12 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include <vector>
-#include <list>
 #include "Rank1Count.h"
-#include <string>
-#include <algorithm>
-#include <iterator>
 using namespace std;
 
 
