@@ -11,18 +11,6 @@ g++ -o run.bin main.cpp Rank1Count.h Rank1Count.cpp
 
 ## Running the tests
 By default, this demo code takes as input the encodings of the first 10 LFW images.
-```
-AJ_Cook/AJ_Cook_0001.jpg
-AJ_Lamas/AJ_Lamas_0001.jpg
-Aaron_Eckhart/Aaron_Eckhart_0001.jpg
-Aaron_Guiel/Aaron_Guiel_0001.jpg
-Aaron_Patterson/Aaron_Patterson_0001.jpg
-Aaron_Peirsol/Aaron_Peirsol_0001.jpg
-Aaron_Peirsol/Aaron_Peirsol_0002.jpg
-Aaron_Peirsol/Aaron_Peirsol_0003.jpg
-Aaron_Peirsol/Aaron_Peirsol_0004.jpg
-Aaron_Pena/Aaron_Pena_0001.jpg
-```
 
 ```
 $ ./run.bin
@@ -55,23 +43,9 @@ accumrnaks
 -------------------------------------------------
 ```
 
-You can also run the code with the encodings of your own test set 
+You can also run the code with your own test set. 
 ```
-./run.bin {fname_testset} {fname_refset} {fname_output} {gallerySize} {G} {F}
-```
-where
-```
-const char *fname_testset="data/test.data"; 	// file name of the test set. a binary file	
-const char *fname_refset="data/reference.data"; // file name of the reference set. a binary file 
-int gallerySize=50; 							// How large of a gallery to simulate? (default:50)
-int F=4096;                                     // feature dimension
-```
-
-A binary file can be easily generated from **X**(NxF matrix). Here is a simple code for Matlab users.
-```
-fid = fopen('data/test.data', 'w');
-fwrite(fid, X, 'single');
-fclose(fid);
+./run.bin {fname_testset} {fname_refset} {fname_output} {gallerySize} {G} {F}.
 ```
 
 ## Authors

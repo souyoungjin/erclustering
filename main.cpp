@@ -24,7 +24,7 @@ int main(int argc, char*argv[]) {
 	int numArgs=argc-1;
 	const char *fname_testset="data/test.data"; 	// file name of the test set. a binary file	[NxF]
 	const char *fname_refset="data/reference.data"; // file name of the reference set. a binary file [NxG] 
-	int gallerySize=50; 							// How large of a gallery to simulate?(default:50)
+	int gallerySize=50; 							// How large of a gallery to simulate? (default:50)
 	int F=4096; 									// feature dimension
 	if (numArgs==5) {
 	    fname_testset=argv[1];
