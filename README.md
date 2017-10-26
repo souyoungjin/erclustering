@@ -1,9 +1,6 @@
 # End-to-end Face Detection and Cast Grouping in Movies Using Erdős–Rényi Clustering
 
 This code computes Rank-1 Count similarity scores between N different face images. 
-```
-SouYoung Jin, Hang Su, Chris Stauffer, and Erik Learned-Miller.  End-to-end face detection and cast grouping in movies using Erdos-Renyi clustering. International Conference on Computer Vision (ICCV), 10 pages, 2017. [project page] (http://souyoungjin.com/erclustering)
-```
 
 
 ### Compiling
@@ -67,7 +64,7 @@ where
 ```
 const char *fname_testset="data/test.data"; 	// file name of the test set. a binary file	
 const char *fname_refset="data/reference.data"; // file name of the reference set. a binary file 
-int gallerySize=50; 							// How large of a gallery to simulate? (default:50)
+int gallerySize=50; 				// How large of a gallery to simulate? (default:50)
 int F=4096;                                     // feature dimension
 ```
 
@@ -77,6 +74,9 @@ fid = fopen('data/test.data', 'w');
 fwrite(fid, X, 'single');
 fclose(fid);
 ```
+
+## Publication
+SouYoung Jin, Hang Su, Chris Stauffer, and Erik Learned-Miller.  End-to-end face detection and cast grouping in movies using Erdos-Renyi clustering. International Conference on Computer Vision (ICCV), 10 pages, 2017. [project page] (http://souyoungjin.com/erclustering)
 
 ## Contact
 If you have any questions, please contact [SouYoung Jin](souyoungjin@cs.umass.edu)
