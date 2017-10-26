@@ -26,13 +26,13 @@ int main(int argc, char*argv[]) {
 	const char *fname_refset="data/reference.data"; // file name of the reference set. a binary file [NxG] 
 	int gallerySize=50; 							// How large of a gallery to simulate? (default:50)
 	int F=4096; 									// feature dimension
-	if (numArgs==5) {
+	if (numArgs==4) {
 	    fname_testset=argv[1];
 	    fname_refset=argv[2]; 
 	    gallerySize=atoi(argv[3]);
 	    F=atoi(argv[4]);
 	} else if (numArgs>0) {
-	    printf("Error: input arguments should be {fname_testset} {fname_refset} {fname_output} {gallerySize} {G} {F}.\n");
+	    printf("Error: input arguments should be {fname_testset} {fname_refset} {gallerySize} {F}.\n");
 	    return 0;
 	}
 	
