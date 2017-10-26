@@ -64,7 +64,7 @@ where
 ```
 const char *fname_testset="data/test.data"; 	// file name of the test set. a binary file	
 const char *fname_refset="data/reference.data"; // file name of the reference set. a binary file 
-int gallerySize=50; 							// How large of a gallery to simulate? (default:50)
+int gallerySize=50; 				// How large of a gallery to simulate? (default:50)
 int F=4096;                                     // feature dimension
 ```
 

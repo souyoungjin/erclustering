@@ -76,7 +76,7 @@ fclose(fid);
 ```
 
 ## Publication
-SouYoung Jin, Hang Su, Chris Stauffer, and Erik Learned-Miller.  End-to-end face detection and cast grouping in movies using Erdos-Renyi clustering. International Conference on Computer Vision (ICCV), 10 pages, 2017. [project page] (http://souyoungjin.com/erclustering)
+SouYoung Jin, Hang Su, Chris Stauffer, and Erik Learned-Miller. End-to-end face detection and cast grouping in movies using Erdős–Rényi clustering. International Conference on Computer Vision (ICCV), 10 pages, 2017. [project page](http://souyoungjin.com/erclustering)
 
 ## Contact
 If you have any questions, please contact [SouYoung Jin](souyoungjin@cs.umass.edu)
